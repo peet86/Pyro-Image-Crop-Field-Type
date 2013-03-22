@@ -1,7 +1,7 @@
 Pyro-Image-Crop-Field-Type
 =====================================
-Image cropping functionality for any streams based PyroCMS modules.  
-Simple and easy to use image cropping for page, blog and other 3rd party streams based module.
+Image cropping functionality for any PyroStreams based PyroCMS modules.  
+Simple and easy to use image cropping tool for PyroCMS v2.2 Page, Blog and other 3rd party streams based modules.
 
 
 Screenshot:
@@ -19,11 +19,11 @@ v.1.0.1
 v.1.0.0
 - Interactive image cropping based on Jcrop
 - Compatible with all PyroCMS v2.1+ PyroStreams based core & third party modules 
-- Easy to use tags: {{my_image.img}} // generates the cropped image (img html tag)
-- Re-crop  photos anytime when you edit your streams data (re-upload not necessary)
+- Easy-to-use tags: {{my_image.img}} // generates the cropped image (img html tag)
+- Re-crop your photos anytime when editing your streams data (re-upload not necessary)
 - Based on PyroCMS Core Files module and cache 
 - Delete / re-upload functionality
-- Languages: english (en), hungarian (hu)
+- Languages: English (en), Hungarian (hu)
 
 
 Install:
@@ -50,7 +50,7 @@ Scale: Resize your cropped image (90%,80%,70%, etc..)
 Example: 
 Field crop width: 600, 
 Field crop height: 400
-{{my_image.thumb.scale.50.image}} - produces a cropped and then 50% scaled image: 300x200
+{{my_image.thumb.scale.50.image}} - generate a cropped and then 50% scaled image: 300x200
 Scale function is handly when you want to use the same cropped area in smaller sizes..
 
 
@@ -71,5 +71,7 @@ Other "core parameters" just like any other PyroCMS image file:
 {{my_image.folder_name}}
 {{my_image.folder_slug}
 
-Copyright: 
-GPL 
+License: 
+---------
+Apache v2
+Copyright: Peter Varga http://www.vargapeter.com

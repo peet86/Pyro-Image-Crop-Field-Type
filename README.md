@@ -6,7 +6,7 @@ Simple and easy to use image cropping for page, blog and other 3rd party streams
 
 Screenshot:
 -----------
-![Crop your images!](peet86.github.com/pyro_image_crop_field_type/screenshots/backend.png)
+![Crop your images!](/screenshots/backend.png)
 
 
 Features:

@@ -44,9 +44,12 @@ Tags in templates
 Original image:
 {{my_image.img}} - the 'large' original version 
 
-Scale: Resize your cropped image (90%,80%,70%, etc..)
+Scale: 
+Resize your cropped image (90%,80%,70%, etc..)
+
 {{my_image.thumb.scale.<percent 1-99>.image}} - cropped, scaled image url
 {{my_image.thumb.scale.<percent 1-99>.img}} - cropped, html img tag
+
 Example: 
 Field crop width: 600, 
 Field crop height: 400
@@ -54,7 +57,9 @@ Field crop height: 400
 Scale function is handly when you want to use the same cropped area in smaller sizes..
 
 
+
 Other "core parameters" just like any other PyroCMS image file: 
+
 {{my_image.filename}}
 {{my_image.name}}
 {{my_image.alt}}

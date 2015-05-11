@@ -33,7 +33,9 @@ Install:
 3. Go to Control Panel / Add-ons / Modules and install the "Files - cropping" module 
 4. Enjoy! 
 
-
+Dependency:
+------------
+- php gd2 library
 
 Tags in templates
 -----------------------
